@@ -1,0 +1,16 @@
+[
+  {
+    "uuid": "01a0a4d7-a00e-7874-b42a-f8a0db721386",
+    "slug": "libre2-bigquery",
+    "dirName": "260915-libre2-bigquery",
+    "scope": "libre2-gas-bigquery",
+    "status": "archived"
+  },
+  {
+    "uuid": "01a0a4e3-18e4-74bf-a660-2e0f12c5d96e",
+    "slug": "libre2-collector",
+    "dirName": "260915-libre2-collector",
+    "scope": "libre2-gas-bigquery",
+    "status": "in-flight"
+  }
+]

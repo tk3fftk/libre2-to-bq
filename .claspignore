@@ -1,0 +1,12 @@
+node_modules/**
+.git/**
+aidlc/**
+.codex/**
+.agents/**
+docs/**
+bigquery.sql
+README.md
+package.json
+package-lock.json
+eslint.config.mjs
+.prettierrc.json
