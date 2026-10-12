@@ -9,6 +9,11 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+.env
+.env.*
+!.env.template
+dumps/
+*_glucose_*.csv
 dist
 dist-ssr
 *.local

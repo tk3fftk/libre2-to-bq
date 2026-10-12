@@ -1,16 +1,14 @@
 export default [
   {
-    files: ['Code.gs'],
+    files: ['src/**/*.js', 'test/**/*.js', 'eslint.config.mjs'],
     languageOptions: {
       ecmaVersion: 2022,
-      sourceType: 'script',
+      sourceType: 'module',
       globals: {
-        BigQuery: 'readonly',
-        LockService: 'readonly',
-        PropertiesService: 'readonly',
-        ScriptApp: 'readonly',
-        UrlFetchApp: 'readonly',
-        Utilities: 'readonly'
+        process: 'readonly',
+        fetch: 'readonly',
+        AbortSignal: 'readonly',
+        URL: 'readonly'
       }
     },
     rules: {
